@@ -1,22 +1,46 @@
-# Customer-Churn-Analysis
+# Customer Churn Analysis
 
-## Objective
-Analyze customer data to identify factors contributing to churn.
+## 📌 Objective
+To analyze customer behavior and identify key factors driving churn in a telecom business, and provide actionable recommendations to improve customer retention.
 
-## Tools Used
+---
+
+## 🧰 Tools & Technologies
 - Python (Pandas, NumPy)
-- Seaborn & Matplotlib
-- Scikit-learn
+- Data Visualization (Seaborn, Matplotlib)
+- Machine Learning (Logistic Regression)
 
-## Key Insights
-- Customers with month-to-month contracts show highest churn
-- New customers are more likely to churn
-- Higher monthly charges increase churn probability
+---
 
-## Model
-Built a Logistic Regression model to predict churn.
+## 📊 Key Analysis Performed
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering (Tenure grouping)
+- Churn behavior analysis across customer segments
+- Predictive modeling using Logistic Regression
 
-## Business Recommendations
-- Promote long-term contracts
-- Offer discounts to high-risk customers
-- Improve onboarding experience
+---
+
+## 🔍 Key Insights
+- Customers on **month-to-month contracts** have the highest churn rate  
+- **New customers (low tenure)** are more likely to leave  
+- Higher **monthly charges** increase churn probability  
+
+---
+
+## 💡 Business Recommendations
+- Encourage long-term contracts through discounts  
+- Improve onboarding experience for new customers  
+- Target high-risk customers with retention offers  
+
+---
+
+## 🤖 Model Performance
+- Logistic Regression used for churn prediction  
+- Achieved accuracy of: XX% (update this)
+
+---
+
+## 📁 Project Structure
+- Notebook: customer_churn_analysis.ipynb  
+- Dataset: Telco Customer Churn Dataset  
