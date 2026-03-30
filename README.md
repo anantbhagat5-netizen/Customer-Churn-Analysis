@@ -8,7 +8,6 @@ To analyze customer behavior and identify key factors driving churn in a telecom
 ## 🧰 Tools & Technologies
 - Python (Pandas, NumPy)
 - Data Visualization (Seaborn, Matplotlib)
-- Machine Learning (Logistic Regression)
 
 ---
 
@@ -17,7 +16,6 @@ To analyze customer behavior and identify key factors driving churn in a telecom
 - Exploratory Data Analysis (EDA)
 - Feature engineering (Tenure grouping)
 - Churn behavior analysis across customer segments
-- Predictive modeling using Logistic Regression
 
 ---
 
