@@ -1,44 +1,50 @@
 # Customer Churn Analysis
 
 ## 📌 Objective
-To analyze customer behavior and identify key factors driving churn in a telecom business, and provide actionable recommendations to improve customer retention.
+To analyze customer data and identify key factors contributing to customer churn in a telecom business.
 
 ---
 
 ## 🧰 Tools & Technologies
 - Python (Pandas, NumPy)
 - Data Visualization (Seaborn, Matplotlib)
+- Jupyter Notebook
 
 ---
 
-## 📊 Key Analysis Performed
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature engineering (Tenure grouping)
-- Churn behavior analysis across customer segments
+## 📊 Analysis Performed
+- Data loading and inspection  
+- Data cleaning and preprocessing  
+- Handling missing values and data type corrections  
+- Exploratory Data Analysis (EDA)  
+- Visualization of churn patterns across different variables  
 
 ---
 
 ## 🔍 Key Insights
-- Customers on **month-to-month contracts** have the highest churn rate  
-- **New customers (low tenure)** are more likely to leave  
-- Higher **monthly charges** increase churn probability  
+- Customers with **month-to-month contracts** show higher churn compared to long-term contracts  
+- Customers with **lower tenure** are more likely to churn  
+- Higher **monthly charges** are associated with increased churn probability  
+
+---
+
+## 📈 Visualizations
+The project includes multiple visualizations such as:
+- Churn distribution  
+- Churn by contract type  
+- Tenure vs churn analysis  
+- Monthly charges vs churn  
+- Correlation heatmap  
 
 ---
 
 ## 💡 Business Recommendations
-- Encourage long-term contracts through discounts  
+- Encourage customers to shift to long-term contracts  
 - Improve onboarding experience for new customers  
-- Target high-risk customers with retention offers  
-
----
-
-## 🤖 Model Performance
-- Logistic Regression used for churn prediction  
-- Achieved accuracy of: XX% (update this)
+- Offer targeted discounts or retention strategies for high-risk customers  
 
 ---
 
 ## 📁 Project Structure
-- Notebook: customer_churn_analysis.ipynb  
-- Dataset: Telco Customer Churn Dataset  
+- `customer_churn_analysis.ipynb` → Main analysis notebook  
+- `WA_Fn-UseC_-Telco-Customer-Churn.csv` → Dataset  
